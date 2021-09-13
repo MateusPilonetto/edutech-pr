@@ -1,0 +1,72 @@
+input {
+    display: block;
+    padding: 8px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 30px;
+}
+
+label {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botao {
+    width: 250px;
+    margin-left: 32px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background: purple;
+}
+
+.botao:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    font-size: 30px;
+    background: rgb(131, 17, 131);
+}
+.form {
+    width: 50vw;
+    margin-left: 345px;
+    height: 90vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right, blue, purple);
+    border-radius: 50px;
+}
+
+@media only screen and (max-device-width: 425px) {
+    .form {
+        width: 800px;
+        margin-left: 100px;
+        height: 80vh;
+        margin-top: 170px;
+    }
+
+    input {
+        font-size: 35px;
+        width: 600px;
+        margin-bottom: 50px;
+    }
+
+    label {
+        font-size: 35px;
+    }
+
+    .botao {
+        width: 450px;
+        margin-left: 75px;
+        font-size: 50px;
+    }
+
+    .botao:hover {
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+        font-size: 30px;
+        background: rgb(131, 17, 131);
+    }
+}
